@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://wallpaperaccess.com/full/636556.jpg);
+    background-size: coontain;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+ }
+ 
+ h1, p {
+   margin: 1em auto;
+   text-align: center;
+ }
+ #title{
+   font-size: 2.5rem;
+ }
+ p{  
+   font-style: italic;
+ }
+ 
+ form {
+   background-color: black;
+   padding: 0 2rem;
+   border-radius: .3rem;
+   width: 60vw;
+   max-width: 500px;
+   min-width: 300px;
+   margin: 0 auto;
+   padding-bottom: 2em;
+ }
+ 
+ fieldset{
+   border:none;
+   padding: 2rem 0;
+   border-bottom: 2px solid black;
+ }
+ 
+ fieldset:last-of-type{
+   border-bottom: none;
+ }
+ 
+ label{
+   display:block;
+   margin: 0.3rem 0;
+ }
+ 
+ input,
+ textarea,
+ select {
+     margin: 7px 0 0 0;
+     width: 100%;
+     min-height: 2em;
+     }
+ 
+ input, textarea {
+   background-color: black;
+   border: 1px solid grey;
+   border-radius: 0.2rem;
+   color: #ffffff;
+   }
+ 
+ .inline {
+   width: unset;
+   margin: 0 0.5em 0 0;
+   vertical-align: middle;
+ }
+ 
+ input[type="submit"]{
+   background-color: #8e8eec;
+   border: none;
+   border-radius: 1rem;
+   font-size:1rem;
+   margin: 0 auto;
+   min-width: 250px;
+   height: 1.5rem;
+   transition: all 0.2s ease; /* Artifício extra usado */
+ }
+ 
+ input[type="submit"]:hover{
+   background-color: #5858e8;
+   cursor: pointer;
+ }

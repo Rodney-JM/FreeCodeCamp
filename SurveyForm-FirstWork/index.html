@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RPG Guide</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1 id="title">RPG Guide</h1>
+      <p id="description">Help us evaluate and improve our platform</p>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name"  id="name-label">Name: <input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+        <label for="email" id="email-label">Email: <input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+        <label for="age" id="number-label">Age: <input type="number" id="number" name="age" id="age" placeholder="Enter your age" min="10" max="120" required></label>
+        </fieldset>
+        <fieldset>
+          <label>Which option is your favorite class?
+          <select id="dropdown">
+            <option>Choose only one option</option>
+            <option>Warrior</option>
+            <option>Wizard</option>
+            <option>Rogue</option>
+            <option>Cleric</option>
+            <option>Ranger</option>
+            <option>Paladin</option>
+            <option>Bard</option>
+            <option>Druid</option>
+            <option>Barbarian</option>
+            <option>Monk</option>
+          <select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label for="bio">Why this is your favorite class? 
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="It's because..."></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>How long have you been playing RPGs?</legend>
+          <label for="never"><input type="radio" name="time" id="never"class="inline" value="never" checked>I've never played RPGs</label>
+          <label for="weeks"><input type="radio" name="time" id="weeks" class="inline" value="weeks">A few Weeks</label>
+          <label for="months"><input type="radio" name="time" id="months" class="inline" value="months">A few Months</label>
+          <label for="years"><input type="radio" name="time" id="years" class="inline" value="years">A few Years </label>
+          <label for="long"><input type="radio" name="time" id="long" class="inline" value="long">A Long Time Ago...</label>
+        </fieldset>
+        <fieldset>
+          <legend>What do you like most about an RPG?</legend>
+          <label for="story"><input type="checkbox" name="story" id="story" class="inline" value="story">Elaborate story</label>
+          <label for="persons"><input type="checkbox" name="persons" id="persons" class="inline" value="persons">Charismatic characters</label>
+          <label for="world"><input type="checkbox" name="world" id="world" class="inline" value="world">A Wide World</label>
+          <label for="other">Other: <input type="text" name="other" id="other" class="inline"></label>
+        </fieldset>
+        <fieldset>
+          <legend>What's your favorite RPG genre?</legend>
+          <label for="fantasy"><input type="radio" name="genre" id="fantasy"class="inline" value="fantasy" checked>Fantasy</label>
+          <label for="fiction"><input type="radio" name="genre" id="fiction" class="inline" value="science-fiction">Science Fiction</label>
+          <label for="horror"><input type="radio" name="genre" id="horror" class="inline" value="horror">Horror</label>
+          <label for="apocalyptic"><input type="radio" name="genre" id="apocalyptic" class="inline" value="apocalyptic">Post-Apocalyptic</label>
+          <label for="cyberpunk"><input type="radio" name="genre" id="cyberpunk" class="inline" value="cyber">Cyberpunk</label>
+        </fieldset>
+        <fieldset>
+          <legeng>Any suggestions? <textarea rols="3" cols="30" placeholder="I think..."></textarea></legend>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    <main>
+  </body>
+</html>
