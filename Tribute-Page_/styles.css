@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    font-family: 'Arial', sans-serif;
+    background: #2a2a2a;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+hr{
+    width: 70%;
+    height: 5px;
+    background-color: white;
+}
+
+section{
+    width: 70%;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    display:block;
+}
+
+.person {
+    width: 100vw;
+    background-color: #c4c4ff;
+    color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+#title {
+    font-size: 2.5rem;
+}
+
+#image {
+    max-width: 100%;
+    width: max(150px, 30vw);
+    aspect-ratio: 15/20;
+    margin: 0 0 1rem 0;
+}
+
+#img-div figcaption, #tribute-info {
+    text-align: center;
+}
+
+#chronology {
+    padding: 10px;
+}
+
+#chronology li {
+    text-align: left;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+#see-more{
+    text-align:center;
+}
+
+a{
+    font-style: italic;
+}
