@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto";
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    display:flex;
+  }
+  
+  #navbar{
+    position: fixed;
+    max-width: 100%;
+    height: 100%;
+    width: 40%;
+    border-right: 3px solid grey;
+  }
+  
+  #navbar header h2{
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .nav-link{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    transition: all 0.2s ease;
+  }
+  .nav-link:hover{
+    background-color: #bfbfbf;
+    cursor: pointer;
+  }
+  
+  .nav-link:first-of-type{
+    margin-top: 1rem;
+  }
+  
+  #main-doc{
+    padding: 1rem;
+    margin-left: 39%;
+  }
+  
+  .main-section{
+    padding: 1rem;
+  }
+  
+  .main-section header h2{
+    letter-spacing: 1px;
+    margin-bottom: .7rem;
+    border-bottom: 2px solid black;
+  }
+  
+  .main-section p{
+    margin-bottom: .4rem;
+  }
+  
+  .main-section li{
+    margin: .5rem 0 .5rem 0;
+    transition: all 0.2s ease;
+  }
+  
+  .main-section li:hover{
+    color: purple;
+    cursor:pointer;
+    font-weight: 800;
+    transition: all 0.2s ease;
+  }
+  
+  .main-section code:hover{
+    color: blue;
+    cursor: pointer
+  }
+  
+  .bxs-castle{
+    font-size: 6rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 767px){
+    body, html{
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+    #navbar header h2{
+      font-size: 1rem;
+    }
+    .bxs-castle{
+      display: none;
+    }
+  }
