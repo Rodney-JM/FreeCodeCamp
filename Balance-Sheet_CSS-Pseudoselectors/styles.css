@@ -1,4 +1,9 @@
-span[class~="sr-only"] {
+  
+  html {
+    box-sizing: border-box;
+  }
+
+  span[class~="sr-only"] {
     border: 0 !important;
     clip: rect(1px, 1px, 1px, 1px) !important;
     clip-path: inset(50%) !important;
@@ -10,11 +15,6 @@ span[class~="sr-only"] {
     padding: 0 !important;
     margin: -1px !important;
   }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
   body {
     font-family: sans-serif;
     color: #0a0a23;
